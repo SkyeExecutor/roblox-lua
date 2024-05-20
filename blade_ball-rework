@@ -8,7 +8,7 @@ CoreGui:SetCore("SendNotification", {
     Title = "Auto Parry (skye edition)",
     Text = "✅",
     Duration = 8,
-    Button1 = "now fixed i think"
+    Button1 = "beta testing"
 })
 
 local parriedBalls = {}
@@ -49,7 +49,7 @@ local function getDistanceAndBall()
 end
 
 local function getPing()
-    return player:GetNetworkPing() * 1500
+    return player:GetNetworkPing() * 850
 end
 
 local function getParryDist(ball)
