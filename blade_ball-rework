@@ -8,7 +8,7 @@ CoreGui:SetCore("SendNotification", {
     Title = "Auto Parry (skye edition)",
     Text = "✅",
     Duration = 8,
-    Button1 = "it wasn't fixed :("
+    Button1 = "now fixed i think"
 })
 
 local parriedBalls = {}
